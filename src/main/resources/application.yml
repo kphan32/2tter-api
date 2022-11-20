@@ -6,6 +6,7 @@ spring:
     driver-class-name: org.postgresql.Driver
   jpa:
     hibernate:
+      # REMEBER TO CHANGE TO UPDATE LATER
       ddl-auto: create-drop
     show-sql: true
 server:
