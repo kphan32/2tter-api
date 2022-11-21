@@ -7,7 +7,7 @@ spring:
   jpa:
     hibernate:
       # REMEBER TO CHANGE TO UPDATE LATER
-      ddl-auto: create-drop
+      ddl-auto: update
     show-sql: true
 server:
-  port: 6969
+  port: "${PORT}"
