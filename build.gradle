@@ -14,6 +14,14 @@ configurations {
 	}
 }
 
+bootJar {
+    archiveClassifier.set('boot')
+}
+
+jar {
+    archiveClassifier.set('')
+}
+
 repositories {
 	mavenCentral()
 }
